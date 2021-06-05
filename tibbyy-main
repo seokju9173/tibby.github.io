@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="tibby-login.css" />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        font-family: sans-serif;
+      }
+
+      body {
+        background-image: #34495e;
+      }
+
+      .mainForm {
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        padding: 30px, 20px;
+        background-color: #ffffff;
+        text-align: center;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+      }
+
+      .mainForm h2 {
+        text-align: center;
+        margin: 30px;
+      }
+
+      .mainbtn {
+        width: 100%;
+        border: none;
+        outline: none;
+        color: #636e72;
+        font-size: 16px;
+        height: 25px;
+        background: none;
+      }
+
+      .btn {
+        position: relative;
+        left: 40%;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+        width: 80%;
+        height: 80px;
+        background: linear-gradient(125deg, #81ecec, #6c5ce7, #81ecec);
+        background-position: left;
+        background-size: 200%;
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: 0.4s;
+        display: inline;
+      }
+
+      .btn:hover {
+        background-position: right;
+      }
+    </style>
+  </head>
+
+  <body width="100%" height="100%">
+    <form action="index.html" method="post" class="mainForm">
+      <h2>SM 05 tibby</h2>
+      <button type="button" class="btn" onclick="location.href='http://121.186.52.192' " id="mainbtn">LOG IN</button>
+    </form>
+  </body>
+</html>
